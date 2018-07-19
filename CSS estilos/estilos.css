@@ -1,0 +1,225 @@
+
+/* ---------------------------------------Global----------------------------*/
+
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body {
+	font-size: 20px;
+	font-family: 'Trocchi', serif;
+	line-height: 1.5;
+	min-height: 500px;
+	color: #000;
+	text-align: center;
+	background-image: url("abuela-pañuelo verde.jpg");
+	/*background-repeat: no-repeat;*/
+
+
+}
+
+img {
+	width: 30px;
+	padding-top: 3px;
+	margin-right: 4px;
+}
+
+h1 {
+	font-size: 25px;
+	font-family: 'Berkshire Swash', cursive;
+	color: #000;
+	margin-bottom: 10px;
+	float: left;
+	text-decoration: none;
+	text-transform: none;
+	display: inline;
+
+}
+
+#logo {
+	display: inline;
+}
+
+#mynavbar {
+	float: right;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: none;
+	background-color: #fff;
+
+
+}
+
+
+ul {
+	padding: 0;
+	margin: 0;
+	float: right;
+}
+
+li {
+	display: inline-block;
+	float: left;
+	color: #000;
+	padding: 0 20px 0 20px;
+	margin-bottom: 10px;
+}
+
+.wrapper {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+
+
+
+}
+
+/* ---------------------------------Header --------------------------------------*/
+
+header {
+	padding-top: 20px;
+  min-height: 50px;
+	background: /*#383838*/ #fff;
+	border-bottom: #ff5c5c 3px solid;
+}
+
+header a{
+	color: #000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+header .current a{
+	color: #ff5c5c;
+}
+
+header .current a:hover{
+	color: #ff5c5c;
+	font-weight: bold;
+}
+
+a:hover {
+  color: #000;
+	text-decoration: none;
+  font-weight: bold;
+}
+
+
+span {
+	color: #ff5c5c;
+}
+
+/* ----------------------------------------Articulo---------------------------*/
+
+#articulo {
+/*	min-height: 500px;*/
+	color: white;
+	text-align: center;
+	background: url("../Fotos/{ Ideas Sublimadas }.png") no-repeat 0 -550px;
+	background-position: center;
+	background-size: cover;
+	border-bottom: #ff5c5c 3px solid;
+	padding-bottom: 100px;
+}
+
+.btn {
+	margin-top: 480px;
+	margin-bottom: 15px;
+
+}
+
+
+/* ---------------------------------Servicios---------------------------------*/
+
+
+#ideatext p {
+	margin-top: 50px;
+}
+
+#foto1 img {
+	height: auto;
+	width: 100%;
+	margin-top: 10px;
+	overflow: auto;
+}
+
+#servicios {
+		background-color: #fff;
+		color: #000;
+		border: 2px #000 solid;
+		border-left: 3px #ff5c5c solid;
+		/*border-radius: 15px 50px;*/
+		width: 80%;
+		line-height: 1.5;
+		display: inline-block;
+		align-content: left;
+		padding: 20px;
+		margin: 30px 0 47px 50px;
+	}
+
+#servicios h2 {
+	font-family: 'Berkshire Swash', cursive;
+	font-size: 25px;
+	color: #000;
+}
+
+#servicios p {
+	font-size: 20px;
+	text-align: left;
+}
+
+#social > a {
+	color: #fff;
+	padding-right: 5px;
+}
+
+/* ------------------------Contactos-----------------------------------------*/
+
+#contactosbody {
+	background-color:#fff;
+	font-family: 'trucchi';
+}
+
+#contactos {
+	font-family: 'roboto';
+	background-color: #000;
+	color: #fff;
+	border: 2px #000 solid;
+	border-left: 3px #ff5c5c solid;
+	width: 80%;
+	line-height: 1.5;
+	display: inline-block;
+	align-content: center;
+	padding: 20px;
+	margin: 100px 0 230px 50px;
+}
+
+#contactos img {
+	padding-right: 15px;
+	float: right;
+	height: 40px;
+	width: 40px;
+}
+
+
+
+
+
+/* ----------------------------------Footer ---------------------------------*/
+
+footer {
+	border-top: #ff5c5c 3px solid;
+	padding: 24px;
+	font-size: 20px;
+	background: #000;
+	color: #fff;
+	text-align: center;
+}
+
+#argcode {
+	color: #fff;
+}
+
+/*-----------------------------Media Quarys----------------------------------*/
